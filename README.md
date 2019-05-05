@@ -54,6 +54,7 @@ It is a measure of the shape of the signal. It represents the frequency below wh
 The Mel frequency cepstral coefficients (MFCCs) of a signal are a small set of features (usually about 10–20) which concisely describe the overall shape of a spectral envelope. It models the characteristics of the human voice.
 
 5. Chroma Frequencies
+
 Chroma features are an interesting and powerful representation for music audio in which the entire spectrum is projected onto 12 bins representing the 12 distinct semitones (or chroma) of the musical octave.
 
 We have in-built Librosa library API's to extract each of the features directly.
