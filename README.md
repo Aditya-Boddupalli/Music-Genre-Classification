@@ -74,7 +74,7 @@ The different models I have built are as follows:
 I have saved the model's architecture and weights for future reference as well. You can find the files uploaded, files ending with .h5 are model weights files and json files contain model architectures.
 
 
-# Model performances:
+# Models class level performances:
 
 1. Model with regularization:
 
