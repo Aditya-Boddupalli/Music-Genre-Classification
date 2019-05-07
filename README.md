@@ -71,4 +71,12 @@ The different models I have built are as follows:
 3. CNN using Spectrogram images directly.
 4. A hybrid model containing lstm(for mfcc features) + feed forward neural network(other features except mfcc)
 
-I have saved the model's architecture and weights for future reference as well.
+I have saved the model's architecture and weights for future reference as well. You can find the files uploaded, files ending with .h5 are model weights files and json files contain model architectures.
+
+
+
+
+
+
+
+
