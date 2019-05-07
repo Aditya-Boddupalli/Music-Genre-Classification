@@ -78,24 +78,68 @@ I have saved the model's architecture and weights for future reference as well. 
 
 1. Model with regularization:
 
-![image](https://user-images.githubusercontent.com/31129705/57275192-6065f280-70bb-11e9-8222-1dad2bd0f875.png)
+Train Accuracy : 93.00%
+Test Accuracy :  84.00%
+
+Architecture :
+
+![image](https://user-images.githubusercontent.com/31129705/57319702-d483b300-711a-11e9-9424-5a31a8aebd24.png)
+
+Class level performance :
+
+![image](https://user-images.githubusercontent.com/31129705/57319799-0c8af600-711b-11e9-9740-88da3ddb6529.png)
+ 
 
 2. Model with dropout:
 
-![image](https://user-images.githubusercontent.com/31129705/57275421-2812e400-70bc-11e9-897f-ffcde5570157.png)
+Train Accuracy : 92.33%
+Test Aaccuracy : 90.11%
+
+Architecture :
+
+![image](https://user-images.githubusercontent.com/31129705/57320043-9dfa6800-711b-11e9-9d7c-4f2145f845f2.png)
+
+Class level performance :
+
+![image](https://user-images.githubusercontent.com/31129705/57320087-b9fe0980-711b-11e9-9fec-1d2bd440a105.png)
+
 
 3. Model with mfcc features only and with dropout:
 
-![image](https://user-images.githubusercontent.com/31129705/57275691-e46caa00-70bc-11e9-9ae6-09c2b04ee862.png)
+Train Accuracy : 83.89%
+Test Accuracy :  83.67%
+
+Architecture :
+
+![image](https://user-images.githubusercontent.com/31129705/57320250-12350b80-711c-11e9-82ea-016f2acdfd37.png)
+
+Class level performance :
+
+![image](https://user-images.githubusercontent.com/31129705/57320288-2f69da00-711c-11e9-86b7-c25c4113350a.png)
 
 
 4 Model with mfcc features only and with regularization:
 
-![image](https://user-images.githubusercontent.com/31129705/57276360-f5b6b600-70be-11e9-8b2b-ac148bc1b74f.png)
+Train accuracy : 81.78%
+Test accuracy :  72.75%
+
+Architecture :
+
+![image](https://user-images.githubusercontent.com/31129705/57320399-722bb200-711c-11e9-9767-fc672592831e.png)
+
+Class level performance :
+
+![image](https://user-images.githubusercontent.com/31129705/57320473-a0a98d00-711c-11e9-90af-9eac44774b0f.png)
+
 
 5. Hybrid model using LSTM for mfcc features and Feed forward neural network for other features:
 
-![image](https://user-images.githubusercontent.com/31129705/57276522-8c837280-70bf-11e9-8c37-ba7538eaef3a.png)
+Train accuracy : 78.29%
+Test accuracy :  80%
+
+Class level performance :
+
+![image](https://user-images.githubusercontent.com/31129705/57320693-20cff280-711d-11e9-8978-d5d444d56ac4.png)
 
 
 
