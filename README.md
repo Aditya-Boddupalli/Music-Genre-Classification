@@ -82,6 +82,20 @@ I have saved the model's architecture and weights for future reference as well. 
 
 2. Model with dropout:
 
+![image](https://user-images.githubusercontent.com/31129705/57275421-2812e400-70bc-11e9-897f-ffcde5570157.png)
+
+3. Model with mfcc features only and with dropout:
+
+![image](https://user-images.githubusercontent.com/31129705/57275691-e46caa00-70bc-11e9-9ae6-09c2b04ee862.png)
+
+
+4 Model with mfcc features only and with regularization:
+
+![image](https://user-images.githubusercontent.com/31129705/57276360-f5b6b600-70be-11e9-8b2b-ac148bc1b74f.png)
+
+5. Hybrid model using LSTM for mfcc features and Feed forward neural network for other features:
+
+![image](https://user-images.githubusercontent.com/31129705/57276522-8c837280-70bf-11e9-8c37-ba7538eaef3a.png)
 
 
 
