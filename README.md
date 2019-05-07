@@ -78,5 +78,3 @@ I have saved the model's architecture and weights for future reference as well. 
 
 
 
-
-
